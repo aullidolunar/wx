@@ -1,0 +1,26 @@
+# Spanish translations for wxtest package.
+# Copyright (C) 2024 aullidolunar
+# This file is distributed under the same license as the wxtest package.
+# <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wxtest 1.3.0.1\n"
+"Report-Msgid-Bugs-To: aullidolunar@gmail.com\n"
+"POT-Creation-Date: 2024-07-04 20:32-0700\n"
+"PO-Revision-Date: 2024-07-04 20:32-0700\n"
+"Last-Translator: <EMAIL@ADDRESS>\n"
+"Language-Team: Spanish\n"
+"Language: es_MX\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: C:/Users/MtroJoel/Documents/ProfeJoel/devel/wx/wxtest1-3/src/frame.cpp:13
+msgid "unnamed"
+msgstr "Sin nombre"
+
+#: C:/Users/MtroJoel/Documents/ProfeJoel/devel/wx/wxtest1-3/src/frame.cpp:14
+msgid "value"
+msgstr "Valor"
