@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the "wxtest3" package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \"wxtest3\" \"3.0.0.0\"\n"
+"Report-Msgid-Bugs-To: \"aullidolunar@gmail.com\"\n"
+"POT-Creation-Date: 2024-10-04 19:44-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/MyFrame.cpp:35
+msgid "This your message"
+msgstr ""
+
+#: _build/src/MesonHelper.h:4 _build/data/wxtest3.desktop.in:5
+msgid "wxWidgets application demo"
+msgstr ""
+
+#: _build/data/wxtest3.desktop.in:4
+msgid "wxtest3"
+msgstr ""
+
+#: /Users/MtroJoel/Documents/ProfeJoel/devel/wx/staged/data/MyFrame.xrc:24
+msgid "Your platform icon"
+msgstr ""
+
+#: /Users/MtroJoel/Documents/ProfeJoel/devel/wx/staged/data/MyFrame.xrc:45
+msgid "Write something nice:"
+msgstr ""
+
+#: /Users/MtroJoel/Documents/ProfeJoel/devel/wx/staged/data/MyFrame.xrc:63
+msgid "&OK"
+msgstr ""
+
+#: /Users/MtroJoel/Documents/ProfeJoel/devel/wx/staged/data/MyFrame.xrc:77
+msgid "Show wxAboutBox"
+msgstr ""

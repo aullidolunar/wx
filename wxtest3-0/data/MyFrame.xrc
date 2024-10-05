@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resource xmlns="http://www.wxwidgets.org/wxxrc" version="2.5.3.0">
+  <object class="wxFrame" name="MyFrame1">
+    <size>420,108</size>
+    <style>wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL</style>
+    <title></title>
+    <centered>1</centered>
+    <aui_managed>0</aui_managed>
+    <object class="wxBoxSizer" name="mainSizer">
+      <orient>wxVERTICAL</orient>
+      <object class="sizeritem">
+        <flag>wxEXPAND | wxALL</flag>
+        <border>0</border>
+        <option>1</option>
+        <object class="wxPanel" name="m_panel">
+          <style>wxTAB_TRAVERSAL</style>
+          <object class="wxBoxSizer" name="panelSizer">
+            <orient>wxHORIZONTAL</orient>
+            <object class="sizeritem">
+              <flag>wxTOP|wxBOTTOM|wxLEFT|wxALIGN_CENTER_VERTICAL</flag>
+              <border>10</border>
+              <option>0</option>
+              <object class="wxStaticBitmap" name="m_bitmap1">
+                <tooltip>Your platform icon</tooltip>
+                <bitmap>linux-icon-64.png</bitmap>
+              </object>
+            </object>
+            <object class="sizeritem">
+              <flag>wxEXPAND</flag>
+              <border>5</border>
+              <option>1</option>
+              <object class="wxBoxSizer" name="formWidgets">
+                <orient>wxVERTICAL</orient>
+                <object class="sizeritem">
+                  <flag>wxEXPAND|wxTOP|wxRIGHT|wxLEFT</flag>
+                  <border>10</border>
+                  <option>1</option>
+                  <object class="wxBoxSizer" name="sizer1">
+                    <orient>wxHORIZONTAL</orient>
+                    <object class="sizeritem">
+                      <flag></flag>
+                      <border>5</border>
+                      <option>0</option>
+                      <object class="wxStaticText" name="m_staticText2">
+                        <label>Write something nice:</label>
+                        <wrap>-1</wrap>
+                      </object>
+                    </object>
+                    <object class="sizeritem">
+                      <flag>wxLEFT</flag>
+                      <border>10</border>
+                      <option>1</option>
+                      <object class="wxTextCtrl" name="m_textCtrl1">
+                        <value></value>
+                        <maxlength>0</maxlength>
+                      </object>
+                    </object>
+                    <object class="sizeritem">
+                      <flag>wxLEFT</flag>
+                      <border>10</border>
+                      <option>0</option>
+                      <object class="wxButton" name="buttonOK">
+                        <label>_OK</label>
+                        <default>0</default>
+                        <auth_needed>0</auth_needed>
+                        <markup>0</markup>
+                        <bitmap/>
+                      </object>
+                    </object>
+                  </object>
+                </object>
+                <object class="sizeritem">
+                  <flag>wxALL</flag>
+                  <border>10</border>
+                  <option>0</option>
+                  <object class="wxCheckBox" name="m_checkBox1">
+                    <label>Show wxAboutBox</label>
+                    <checked>0</checked>
+                  </object>
+                </object>
+              </object>
+            </object>
+          </object>
+        </object>
+      </object>
+    </object>
+  </object>
+</resource>

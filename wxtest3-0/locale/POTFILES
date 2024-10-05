@@ -1,0 +1,5 @@
+src/main.cpp
+src/MyFrame.cpp
+_build/src/MesonHelper.h
+_build/data/wxtest3.desktop.in
+_build/data/MyFrame.xrc.h
