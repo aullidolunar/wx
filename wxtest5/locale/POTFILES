@@ -1,0 +1,5 @@
+main.cpp
+MyFrame.cpp
+DialogItemEditor.cpp
+build/data/wxtest5.desktop.in
+build/data/MyFrame.xrc.h

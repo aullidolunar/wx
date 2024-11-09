@@ -1,0 +1,146 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wxTest5 5.0.0.0\n"
+"Report-Msgid-Bugs-To: \"aullidolunar@gmail.com\"\n"
+"POT-Creation-Date: 2024-11-06 21:36-0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: aullidolunar <aullidolunar@gmail.com>\n"
+"Language-Team: aullidolunar\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: MyFrame.cpp:26
+msgid "Title"
+msgstr "Título"
+
+#: MyFrame.cpp:27
+msgid "Author"
+msgstr "Autor"
+
+#: MyFrame.cpp:28
+msgid "Link"
+msgstr "Enlace"
+
+#: MyFrame.cpp:43
+msgid "Select output folder"
+msgstr "Selecciona el directorio destino"
+
+#: MyFrame.cpp:65 MyFrame.cpp:76 MyFrame.cpp:215
+msgid "Empty grid"
+msgstr "Parrilla vacía"
+
+#: MyFrame.cpp:66 MyFrame.cpp:112
+msgid "You must select something first"
+msgstr "Debes primero seleccionar un elemento"
+
+#: MyFrame.cpp:77
+msgid "You can't clear an empty list"
+msgstr "No se puede limpiar una lista vacía"
+
+#: MyFrame.cpp:111
+msgid "No selection"
+msgstr "Sin selección"
+
+#: MyFrame.cpp:172
+msgid "Select JSON file"
+msgstr "Selecciona archivo JSON"
+
+#: MyFrame.cpp:193
+msgid "Save JSON file"
+msgstr "Guarda archivo JSON"
+
+#: MyFrame.cpp:216
+msgid "You can't save an empty list"
+msgstr "No se puede guardar una lista vacía"
+
+#: DialogItemEditor.cpp:17
+msgid "Add"
+msgstr "Agregar"
+
+#: DialogItemEditor.cpp:17
+msgid "Edit"
+msgstr "Editar"
+
+#: DialogItemEditor.cpp:17
+msgid "item"
+msgstr "elemento"
+
+#: build/data/wxtest5.desktop.in:4
+msgid "wxtest5"
+msgstr ""
+
+#: build/data/wxtest5.desktop.in:5
+msgid "wxWidgets application demo"
+msgstr "aplicación demo wxWidgets"
+
+#: ../data/MyFrame.xrc:30
+msgid "Output directory:"
+msgstr "Directorio de salida:"
+
+#: ../data/MyFrame.xrc:49
+msgid "&Find..."
+msgstr "&Buscar..."
+
+#: ../data/MyFrame.xrc:70
+msgid "&List"
+msgstr "&Lista"
+
+#: ../data/MyFrame.xrc:72
+msgid "&Open..."
+msgstr "&Abrir..."
+
+#: ../data/MyFrame.xrc:77
+msgid "&Save as..."
+msgstr "&Guardar como..."
+
+#: ../data/MyFrame.xrc:83
+msgid "Actions"
+msgstr "Acciones"
+
+#: ../data/MyFrame.xrc:85
+msgid "&Add..."
+msgstr "&Agregar..."
+
+#: ../data/MyFrame.xrc:90
+msgid "&Edit..."
+msgstr "&Editar..."
+
+#: ../data/MyFrame.xrc:96
+msgid "&Remove"
+msgstr "&Remover"
+
+#: ../data/MyFrame.xrc:101
+msgid "Re&move all"
+msgstr "Re&mover todos"
+
+#: ../data/MyFrame.xrc:108
+msgid "&Close"
+msgstr "&Cerrar"
+
+#: ../data/MyFrame.xrc:151
+msgid "Title:"
+msgstr "Título:"
+
+#: ../data/MyFrame.xrc:171
+msgid "Author:"
+msgstr "Autor:"
+
+#: ../data/MyFrame.xrc:201
+msgid "Link:"
+msgstr "Enlace:"
+
+#: ../data/MyFrame.xrc:211
+msgid "jMan"
+msgstr ""
+
+#: ../data/MyFrame.xrc:236
+msgid "&Cancel"
+msgstr "&Cancelar"
+
+#: ../data/MyFrame.xrc:248
+msgid "&OK"
+msgstr "&Aceptar"

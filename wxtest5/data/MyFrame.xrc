@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resource xmlns="http://www.wxwidgets.org/wxxrc" version="2.5.3.0">
+  <object class="wxFrame" name="MyFrame1">
+    <size>404,221</size>
+    <style>wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL</style>
+    <title></title>
+    <centered>1</centered>
+    <aui_managed>0</aui_managed>
+    <object class="wxBoxSizer" name="child_sizer">
+      <orient>wxVERTICAL</orient>
+      <object class="sizeritem">
+        <flag>wxEXPAND | wxALL</flag>
+        <border>0</border>
+        <option>1</option>
+        <object class="wxPanel" name="panel">
+          <style>wxTAB_TRAVERSAL</style>
+          <object class="wxBoxSizer" name="panel_sizer">
+            <orient>wxVERTICAL</orient>
+            <object class="sizeritem">
+              <flag>wxEXPAND</flag>
+              <border>10</border>
+              <option>0</option>
+              <object class="wxBoxSizer" name="sizer_input">
+                <orient>wxHORIZONTAL</orient>
+                <object class="sizeritem">
+                  <flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+                  <border>10</border>
+                  <option>0</option>
+                  <object class="wxStaticText" name="m_staticText2">
+                    <label>Output directory:</label>
+                    <wrap>-1</wrap>
+                  </object>
+                </object>
+                <object class="sizeritem">
+                  <flag>wxTOP|wxBOTTOM|wxRIGHT|wxALIGN_CENTER_VERTICAL</flag>
+                  <border>10</border>
+                  <option>1</option>
+                  <object class="wxTextCtrl" name="textctrl_dir">
+                    <style>wxTE_READONLY</style>
+                    <value></value>
+                    <maxlength>0</maxlength>
+                  </object>
+                </object>
+                <object class="sizeritem">
+                  <flag>wxTOP|wxBOTTOM|wxRIGHT|wxALIGN_CENTER_VERTICAL</flag>
+                  <border>10</border>
+                  <option>0</option>
+                  <object class="wxButton" name="button_find">
+                    <label>_Find...</label>
+                    <default>0</default>
+                    <auth_needed>0</auth_needed>
+                    <markup>0</markup>
+                    <bitmap>folder_22.png</bitmap>
+                  </object>
+                </object>
+              </object>
+            </object>
+            <object class="sizeritem">
+              <flag>wxEXPAND|wxBOTTOM|wxRIGHT|wxLEFT</flag>
+              <border>10</border>
+              <option>1</option>
+              <object class="wxGrid" name="grid1"/>
+            </object>
+          </object>
+        </object>
+      </object>
+    </object>
+    <object class="wxMenuBar" name="menubar1">
+      <object class="wxMenu" name="list">
+        <label>_List</label>
+        <object class="wxMenuItem" name="menuitem_open">
+          <label>_Open...</label>
+          <accel>Ctrl+o</accel>
+          <help></help>
+        </object>
+        <object class="wxMenuItem" name="menuitem_saveas">
+          <label>_Save as...</label>
+          <accel>Ctrl+s</accel>
+          <help></help>
+        </object>
+        <object class="separator"/>
+        <object class="wxMenu" name="actions">
+          <label>Actions</label>
+          <object class="wxMenuItem" name="menuitem_add">
+            <label>_Add...</label>
+            <accel>Ctrl+a</accel>
+            <help></help>
+          </object>
+          <object class="wxMenuItem" name="menuitem_edit">
+            <label>_Edit...</label>
+            <accel>Ctrl+e</accel>
+            <help></help>
+          </object>
+          <object class="separator"/>
+          <object class="wxMenuItem" name="menuitem_remove">
+            <label>_Remove</label>
+            <accel>Ctrl+r</accel>
+            <help></help>
+          </object>
+          <object class="wxMenuItem" name="menuitem_removeAll">
+            <label>Re_move all</label>
+            <accel>Ctrl+m</accel>
+            <help></help>
+          </object>
+        </object>
+        <object class="separator"/>
+        <object class="wxMenuItem" name="menuitem_close">
+          <label>_Close</label>
+          <accel>Ctrl+w</accel>
+          <help></help>
+          <bitmap>exit_22.png</bitmap>
+        </object>
+      </object>
+    </object>
+  </object>
+  <object class="wxDialog" name="MyDialog1">
+    <size>246,244</size>
+    <style>wxDEFAULT_DIALOG_STYLE</style>
+    <title></title>
+    <centered>1</centered>
+    <object class="wxBoxSizer" name="dialog_sizer">
+      <orient>wxVERTICAL</orient>
+      <object class="sizeritem">
+        <flag>wxEXPAND</flag>
+        <border>0</border>
+        <option>1</option>
+        <object class="wxBoxSizer" name="dialog_child_sizer">
+          <orient>wxVERTICAL</orient>
+          <object class="sizeritem">
+            <flag>wxEXPAND | wxALL</flag>
+            <border>0</border>
+            <option>1</option>
+            <object class="wxPanel" name="dialog_panel">
+              <style>wxTAB_TRAVERSAL</style>
+              <object class="wxBoxSizer" name="dialog_panel_sizer">
+                <orient>wxVERTICAL</orient>
+                <object class="sizeritem">
+                  <flag>wxEXPAND</flag>
+                  <border>0</border>
+                  <option>1</option>
+                  <object class="wxGridBagSizer" name="dialog_sizer_gbsizer">
+                    <vgap>10</vgap>
+                    <hgap>10</hgap>
+                    <growablerows></growablerows>
+                    <growablecols></growablecols>
+                    <object class="sizeritem">
+                      <flag>wxTOP|wxLEFT</flag>
+                      <border>10</border>
+                      <cellpos>0,0</cellpos>
+                      <cellspan>1,1</cellspan>
+                      <object class="wxStaticText" name="m_staticText3">
+                        <label>Title:</label>
+                        <wrap>-1</wrap>
+                      </object>
+                    </object>
+                    <object class="sizeritem">
+                      <flag>wxEXPAND|wxALIGN_CENTER_VERTICAL|wxTOP|wxRIGHT</flag>
+                      <border>10</border>
+                      <cellpos>0,1</cellpos>
+                      <cellspan>1,1</cellspan>
+                      <object class="wxTextCtrl" name="textctrl_title">
+                        <value></value>
+                        <maxlength>0</maxlength>
+                      </object>
+                    </object>
+                    <object class="sizeritem">
+                      <flag>wxLEFT</flag>
+                      <border>10</border>
+                      <cellpos>1,0</cellpos>
+                      <cellspan>1,1</cellspan>
+                      <object class="wxStaticText" name="m_staticText4">
+                        <label>Author:</label>
+                        <wrap>-1</wrap>
+                      </object>
+                    </object>
+                    <object class="sizeritem">
+                      <flag>wxEXPAND|wxRIGHT</flag>
+                      <border>10</border>
+                      <cellpos>1,1</cellpos>
+                      <cellspan>1,1</cellspan>
+                      <object class="wxTextCtrl" name="textctrl_author">
+                        <value></value>
+                        <maxlength>0</maxlength>
+                      </object>
+                    </object>
+                    <object class="sizeritem">
+                      <flag>wxEXPAND|wxRIGHT</flag>
+                      <border>10</border>
+                      <cellpos>2,1</cellpos>
+                      <cellspan>1,1</cellspan>
+                      <object class="wxTextCtrl" name="textctrl_link">
+                        <value></value>
+                        <maxlength>0</maxlength>
+                      </object>
+                    </object>
+                    <object class="sizeritem">
+                      <flag>wxLEFT</flag>
+                      <border>10</border>
+                      <cellpos>2,0</cellpos>
+                      <cellspan>1,1</cellspan>
+                      <object class="wxStaticText" name="m_staticText31">
+                        <label>Link:</label>
+                        <wrap>-1</wrap>
+                      </object>
+                    </object>
+                    <object class="sizeritem">
+                      <flag>wxRIGHT|wxLEFT</flag>
+                      <border>10</border>
+                      <cellpos>3,0</cellpos>
+                      <cellspan>1,2</cellspan>
+                      <object class="wxCheckBox" name="jman_check">
+                        <label>jMan</label>
+                        <checked>0</checked>
+                      </object>
+                    </object>
+                    <object class="sizeritem">
+                      <flag>wxEXPAND|wxRIGHT|wxLEFT</flag>
+                      <border>10</border>
+                      <cellpos>4,0</cellpos>
+                      <cellspan>1,2</cellspan>
+                      <object class="wxStaticLine" name="m_staticline1">
+                        <style>wxLI_HORIZONTAL</style>
+                      </object>
+                    </object>
+                    <object class="sizeritem">
+                      <flag>wxEXPAND|wxBOTTOM|wxRIGHT|wxLEFT</flag>
+                      <border>10</border>
+                      <cellpos>5,0</cellpos>
+                      <cellspan>1,2</cellspan>
+                      <object class="wxBoxSizer" name="dialog_button_sizer">
+                        <orient>wxHORIZONTAL</orient>
+                        <object class="sizeritem">
+                          <flag>wxRIGHT</flag>
+                          <border>10</border>
+                          <option>0</option>
+                          <object class="wxButton" name="dlg_button_cancel">
+                            <label>_Cancel</label>
+                            <default>0</default>
+                            <auth_needed>0</auth_needed>
+                            <markup>0</markup>
+                            <bitmap>close_22.png</bitmap>
+                          </object>
+                        </object>
+                        <object class="sizeritem">
+                          <flag></flag>
+                          <border>0</border>
+                          <option>0</option>
+                          <object class="wxButton" name="dlg_button_ok">
+                            <label>_OK</label>
+                            <default>0</default>
+                            <auth_needed>0</auth_needed>
+                            <markup>0</markup>
+                            <bitmap>ok_22.png</bitmap>
+                          </object>
+                        </object>
+                      </object>
+                    </object>
+                  </object>
+                </object>
+              </object>
+            </object>
+          </object>
+        </object>
+      </object>
+    </object>
+  </object>
+</resource>

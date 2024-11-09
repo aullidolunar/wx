@@ -1,0 +1,131 @@
+#: MyFrame.cpp:26
+msgid "Title"
+msgstr ""
+
+#: MyFrame.cpp:27
+msgid "Author"
+msgstr ""
+
+#: MyFrame.cpp:28
+msgid "Link"
+msgstr ""
+
+#: MyFrame.cpp:43
+msgid "Select output folder"
+msgstr ""
+
+#: MyFrame.cpp:65 MyFrame.cpp:76 MyFrame.cpp:215
+msgid "Empty grid"
+msgstr ""
+
+#: MyFrame.cpp:66 MyFrame.cpp:112
+msgid "You must select something first"
+msgstr ""
+
+#: MyFrame.cpp:77
+msgid "You can't clear an empty list"
+msgstr ""
+
+#: MyFrame.cpp:111
+msgid "No selection"
+msgstr ""
+
+#: MyFrame.cpp:172
+msgid "Select JSON file"
+msgstr ""
+
+#: MyFrame.cpp:193
+msgid "Save JSON file"
+msgstr ""
+
+#: MyFrame.cpp:216
+msgid "You can't save an empty list"
+msgstr ""
+
+#: DialogItemEditor.cpp:17
+msgid "Add"
+msgstr ""
+
+#: DialogItemEditor.cpp:17
+msgid "Edit"
+msgstr ""
+
+#: DialogItemEditor.cpp:17
+msgid "item"
+msgstr ""
+
+#: build/data/wxtest5.desktop.in:4
+msgid "wxtest5"
+msgstr ""
+
+#: build/data/wxtest5.desktop.in:5
+msgid "wxWidgets application demo"
+msgstr ""
+
+#: ../data/MyFrame.xrc:30
+msgid "Output directory:"
+msgstr ""
+
+#: ../data/MyFrame.xrc:49
+msgid "&Find..."
+msgstr ""
+
+#: ../data/MyFrame.xrc:70
+msgid "&List"
+msgstr ""
+
+#: ../data/MyFrame.xrc:72
+msgid "&Open..."
+msgstr ""
+
+#: ../data/MyFrame.xrc:77
+msgid "&Save as..."
+msgstr ""
+
+#: ../data/MyFrame.xrc:83
+msgid "Actions"
+msgstr ""
+
+#: ../data/MyFrame.xrc:85
+msgid "&Add..."
+msgstr ""
+
+#: ../data/MyFrame.xrc:90
+msgid "&Edit..."
+msgstr ""
+
+#: ../data/MyFrame.xrc:96
+msgid "&Remove"
+msgstr ""
+
+#: ../data/MyFrame.xrc:101
+msgid "Re&move all"
+msgstr ""
+
+#: ../data/MyFrame.xrc:108
+msgid "&Close"
+msgstr ""
+
+#: ../data/MyFrame.xrc:151
+msgid "Title:"
+msgstr ""
+
+#: ../data/MyFrame.xrc:171
+msgid "Author:"
+msgstr ""
+
+#: ../data/MyFrame.xrc:201
+msgid "Link:"
+msgstr ""
+
+#: ../data/MyFrame.xrc:211
+msgid "jMan"
+msgstr ""
+
+#: ../data/MyFrame.xrc:236
+msgid "&Cancel"
+msgstr ""
+
+#: ../data/MyFrame.xrc:248
+msgid "&OK"
+msgstr ""

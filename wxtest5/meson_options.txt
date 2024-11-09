@@ -1,0 +1,3 @@
+# More info: https://mesonbuild.com/Build-options.html#build-options
+
+option('MAINTEINER_ENABLE', type: 'boolean', value: true)
